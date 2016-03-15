@@ -1,6 +1,6 @@
 username: glasnt
 branch: master
-
+repo: timvideos
 destination: ../timvideos/
 
 safe: false
