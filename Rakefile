@@ -11,7 +11,9 @@ require 'yaml'
 
 CONFIG = YAML.load(File.read('_config.yml'))
 USERNAME = CONFIG["username"] || ENV['GIT_NAME']
-DESTINATION_REPO = USERNAME + "/" + (CONFIG["repo"] || "#{USERNAME}.github.io")
+DESTINATION_REPO = USERNAME + "/" + CONFIG["repo"]
+puts DESTINATION_REPO
+ 
 
 # Determine source and destination branch
 # User or organization: source -> master
