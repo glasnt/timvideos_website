@@ -1,7 +1,7 @@
 username: glasnt
 branch: master
 
-destination: ../gh-pages/
+destination: ../timvideos/
 
 safe: false
 lsi: false

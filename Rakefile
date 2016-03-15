@@ -18,7 +18,7 @@ DESTINATION_REPO = USERNAME + "/" + (CONFIG["repo"] || "#{USERNAME}.github.io")
 # Project: master -> gh-pages
 # Name of source branch for user/organization defaults to "source"
 SOURCE_REPO = ENV['TRAVIS_REPO_SLUG']
-if DESTINATION_REPO == "timvideos/#{USERNAME}.github.io"
+if DESTINATION_REPO == "glasnt/timvideos"
   SOURCE_BRANCH = CONFIG['branch'] || "source"
   DESTINATION_BRANCH = "master"
 else
